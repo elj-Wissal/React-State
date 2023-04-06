@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+}
+
+.container-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn {
+  padding: 1rem 2rem;
+  background-color: #2ab2e8;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 1rem;
+}
+
+.profile-name {
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
+  color: #7e79b4;
+}
+
+.profile-title {
+  display: flex;
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  color: #3d66c3;
+}
+
+.profile-bio {
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  color: #2d0ce4;
+}
+
+.elapsed-time {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  color: #020202;
+}
+body {
+  background-image: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjk4M2JhdGNoMi0wMjEteC5qcGc.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.profile{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  align-items: center;
+  width: 50%;
+  padding: 20px;
+}
+
+img{
+  height: 300px;
+  width: 300px;
+
+}
